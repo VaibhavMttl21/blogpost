@@ -1,1 +1,1 @@
-{"root":["./src/index.ts"],"version":"5.8.2"}
+{"root":["./src/index.ts","./src/authcontrollers/login.ts","./src/authcontrollers/logout.ts","./src/authcontrollers/signup.ts","./src/controllers/allblogs.ts","./src/controllers/deleteblog.ts","./src/controllers/getblog.ts","./src/controllers/publishpost.ts","./src/controllers/savedraft.ts","./src/middleware/middleware.ts","./src/prismaclient/prismaclient.ts","./src/types/types.ts","./src/utils/config.ts"],"version":"5.8.2"}
