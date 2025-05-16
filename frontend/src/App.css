@@ -73,3 +73,67 @@ button:hover {
 .blog-item:hover {
   background-color: #f5f5f5;
 }
+.app {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+nav {
+  margin-bottom: 20px;
+}
+
+nav a {
+  margin-right: 20px;
+  text-decoration: none;
+  color: #333;
+}
+
+.blog-editor {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.title-input {
+  font-size: 24px;
+  padding: 10px;
+}
+
+.content-input {
+  min-height: 300px;
+  padding: 10px;
+  font-size: 16px;
+}
+
+.tags-input {
+  padding: 10px;
+}
+
+.button-group {
+  display: flex;
+  gap: 10px;
+}
+
+.button-group button {
+  padding: 10px 20px;
+  cursor: pointer;
+}
+
+.save-status {
+  color: green;
+  text-align: center;
+}
+
+.blog-list section {
+  margin-bottom: 30px;
+}
+
+.blog-item {
+  border-bottom: 1px solid #eee;
+  padding: 15px 0;
+}
+
+.blog-item h3 {
+  margin: 0;
+}
