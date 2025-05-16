@@ -45,11 +45,7 @@ export default function Signup() {
         animate={{ opacity: 1, y: 0 }}
         transition={{ duration: 0.5 }}
       >
-        <div className="flex justify-center">
-          <div className="w-20 h-20 bg-gradient-to-tr from-primary-600 to-primary-400 rounded-2xl flex items-center justify-center shadow-lg">
-            <FiUserPlus className="text-white text-3xl" />
-          </div>
-        </div>
+       
         <h2 className="mt-6 text-center text-3xl font-extrabold gradient-text">
           Create Account
         </h2>
