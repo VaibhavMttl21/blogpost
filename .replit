@@ -18,3 +18,19 @@ publicDir = "dist"
 [[ports]]
 localPort = 5173
 externalPort = 80
+
+[workflows]
+runButton = "Dev"
+
+[[workflows.workflow]]
+name = "Dev"
+author = 42777481
+mode = "parallel"
+
+[[workflows.workflow.tasks]]
+task = "shell.exec"
+args = "cd backend && npm run dev"
+
+[[workflows.workflow.tasks]]
+task = "shell.exec"
+args = "cd frontend && npm run dev"
