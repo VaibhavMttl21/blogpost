@@ -2,8 +2,6 @@
 
 A modern, full-stack blogging platform with a seamless user experience, elegant UI, and robust backend.
 
-![BlogCraft](https://via.placeholder.com/800x400?text=BlogCraft)
-
 ## 🚀 Tech Stack
 
 ### Frontend
@@ -11,7 +9,7 @@ A modern, full-stack blogging platform with a seamless user experience, elegant 
 - **TypeScript** - For type-safe code and better developer experience
 - **Vite** - Fast and efficient build tool and development server
 - **TailwindCSS** - Utility-first CSS framework for rapid UI development
-- **Shadcn UI** - High-quality UI components built with Radix UI and Tailwind
+- **shadcn/ui** - High-quality UI components built with Radix UI and Tailwind
 - **Framer Motion** - Animation library for creating fluid UI transitions
 - **React Router** - Declarative routing for React applications
 - **Axios** - Promise-based HTTP client for making API requests
@@ -35,7 +33,7 @@ A modern, full-stack blogging platform with a seamless user experience, elegant 
 - **User Registration** - Create a new account with email and password
 - **User Login** - Secure authentication with JWT
 - **Protected Routes** - Authenticated access to dashboard and blog management
-- **Persistent Sessions** - Stay logged in with HTTP-only cookies
+- **Persistent Sessions** - Stay logged in with HTTP-only cookies and localStorage
 
 ### Blog Management
 - **Create Blogs** - Write new blog posts with a title, content, and tags
@@ -62,6 +60,12 @@ A modern, full-stack blogging platform with a seamless user experience, elegant 
 
 ### Installation
 
+#### Clone the Repository
+```bash
+git clone https://github.com/yourusername/blogcraft.git
+cd blogcraft
+```
+
 #### Backend Setup
 1. Navigate to the backend directory:
    ```bash
@@ -78,6 +82,7 @@ A modern, full-stack blogging platform with a seamless user experience, elegant 
    DATABASE_URL="postgresql://postgres:password@localhost:5432/postgres"
    JWT_SECRET="your_super_secret_key_for_jwt_authentication"
    FRONTEND_URL="http://localhost:5173"
+   PORT=5000
    ```
 
 4. Set up the database:
@@ -123,4 +128,6 @@ A modern, full-stack blogging platform with a seamless user experience, elegant 
 - `DELETE /api/blogs/:id` - Delete a blog
 
 ## 🛠️ Project Structure
+
+### Backend
 
